@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  line-height: 1.5rem;
+  font-weight: 500;
+  background-color: #151414;
+}
+
+.body {
+  margin: 0;
+  display: flex;
+  font-family: 'Space Grotesk', sans-serif;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #f3f3f3;
+}
+
+.nav h3 {
+  width: 154px;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0px auto 20px auto;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  height: 100%;
+  margin: 0;
+}
