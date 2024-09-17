@@ -14,7 +14,7 @@ const Skills = () => {
 
 
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 items-center justify-between w-full">
+        <div className="grid grid-cols-2 md:grid-cols-4 md:border-2 md:border-light-green rounded-lg items-center justify-between w-full m-4 py-4 md:w-1/2">
             {items.map((item) => (
                 <SkillItem icon={item.icon} title={item.title} />
             ))}

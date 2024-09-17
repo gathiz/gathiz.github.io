@@ -14,9 +14,9 @@ const Hero = () => {
             </div>
             <div className="flex flex-col items-center">
                 <h1 className="text-4xl tracking lg:text-4xl">
-                    Nice to meet you! My name is <span className="border-b-4 border-light-green">Francis.</span>
+                    Nice to meet you! My name is <span className="border-b-4 border-light-green">Gathiz.</span>
                 </h1>
-                <p className="mt-8">I am a skilled Fullstack Engineer with experience in modern frontend and
+                <p className="mt-8 md:mx-4">I am a skilled Fullstack Engineer with experience in modern frontend and
                     backend technologies.
                     I have a proven track record of building efficient, scalable applications.
                     I am proficient in React.js, Next.js, Angular, and Tailwind CSS on the frontend,

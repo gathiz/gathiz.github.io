@@ -26,8 +26,7 @@ const Portfolio = () => {
     ];
 
     return(
-        <div className="grid grid-col-2 justify-center md:grid-col-1 mt-4">
-            <hr/>
+        <div className="grid grid-col-2 justify-center md:grid-col-1 md:w-1/2 my-4">
             <h1 className="font-bold m-4">Projects</h1>
             {projects.map((project) => (
                 <PortfolioItem title={project.title} image={project.image} link={project.link} code={project.code} tools={project.tools}/>
